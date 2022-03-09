@@ -1,0 +1,21 @@
+.container{
+    padding-top: 60px;
+}
+
+.event{
+    background-color: #86C6F4;
+}
+
+.navbar,.navbar-brand{
+    padding: 13px;
+    font-size: 30px;
+}
+
+.navbar{
+    
+    background-color: #FFC0D3
+}
+
+body{
+    background-color: #FDEFF4;
+}

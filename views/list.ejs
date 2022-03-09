@@ -1,0 +1,46 @@
+<%- include('header'); -%>
+
+<div class="container">
+  <form action="/event" method="post">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Event Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="exampleInputEmail1"
+        placeholder="Enter event name"
+        name="eventname"
+      />
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Event Details</label>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="event description"
+        name="eventdetails"
+      />
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputPassword1">Starting Date</label>
+        <input
+          type="date"
+          class="form-control"
+          placeholder="event description"
+          name="startdate"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Ending Date</label>
+        <input
+          type="date"
+          class="form-control"
+          placeholder="event description"
+          name="enddate"
+        />
+      </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

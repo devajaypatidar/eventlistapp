@@ -1,0 +1,14 @@
+<%- include('header'); -%> 
+
+<% data.forEach(function(event){ %>
+
+    <main class="container ">
+        <div class="p-5 rounded event">
+          <h1><%= event.eventname %> </h1>
+          <p class="lead"><%= event.eventdetails  %> </p>
+          <p class="lead">Starting date : <%= event.startdate %> </p>
+          <p class="lead">Ending date : <%= event.enddate %> </p>
+        </div>
+      </main>
+    
+<% }); %>
