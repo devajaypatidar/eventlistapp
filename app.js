@@ -23,7 +23,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect('mongodb+srv://ajaypatidar:9AIMV8cSHaNCncRn@cluster0.jhcra.mongodb.net/EventDB', {
+mongoose.connect('mongodb+srv://<Username>:<password>@cluster0.jhcra.mongodb.net/EventDB', {
     dbName: 'eventList',
     useNewUrlParser: true,
     useUnifiedTopology: true
